@@ -1,0 +1,33 @@
+POST /residents HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "residentSerialNumber": 8,
+  "name": "정",
+  "residentRegistrationNumber": "123456-1234567",
+  "genderCode": "남",
+  "birthPlaceCode": "집",
+  "registrationBaseAddress": "광주",
+  "id": "tpgus",
+  "password": "tpgus",
+  "email": "tpgus@a.com",
+  "authority": "ROLE_MEMBER"
+}
+
+###
+GET /residents/4 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+###
+PUT /residents/4 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "id": "rlwns",
+  "password": "rlwns",
+  "email": "rlwns@a.com",
+  "authority": "ROLE_MEMBER"
+}

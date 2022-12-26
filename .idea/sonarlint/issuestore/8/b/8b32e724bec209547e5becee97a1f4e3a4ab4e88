@@ -1,0 +1,12 @@
+
+N
+java:S1854!"8Remove this useless assignment to local variable "user".(ÅõÎ
+?
+java:S1481!")Remove this unused "user" local variable.(ÅõÎ
+Q	java:S125#"<This block of commented-out lines of code should be removed.(ÀØ·À
+b
+java:S1128"GRemove this unused import 'com.nhnacademy.springjpa.auth.UserTokenDto'.(²”Ë°ûÿÿÿÿ
+e
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€
+L
+java:S1068"6Remove this unused "residentRepository" private field.(»×ıà

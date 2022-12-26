@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>주민 목록</title>
+</head>
+<body>
+<h1>주민 목록</h1>
+<table>
+    <thead>
+    <tr>
+        <td>주민일련번호</td>
+        <td>이름</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="resident : ${residentList}">
+        <td th:text="${resident.residentSerialNumber}"></td>
+        <td th:text="${resident.name}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
